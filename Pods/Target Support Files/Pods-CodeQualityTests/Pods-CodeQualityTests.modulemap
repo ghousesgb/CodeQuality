@@ -1,0 +1,6 @@
+framework module Pods_CodeQualityTests {
+  umbrella header "Pods-CodeQualityTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

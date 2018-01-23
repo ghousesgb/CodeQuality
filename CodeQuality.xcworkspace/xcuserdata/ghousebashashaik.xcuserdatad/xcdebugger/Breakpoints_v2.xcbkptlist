@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CodeQualityTests/WebServiceTest.swift"
+            timestampString = "537805103.790561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "test_LoginAPI_isValid()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CodeQuality/ViewModel/MoviesViewModel.swift"
+            timestampString = "538381444.240485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "titleForItmesAtIndexPath(indexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CodeQuality.MoviesViewModel.titleForItmesAtIndexPath(indexPath: Foundation.IndexPath) -&gt; Swift.String"
+                  moduleName = "CodeQuality"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghousebashashaik/Desktop/My%20iOS%20Projects/Ghouse%20GitHub/CodeQuality/CodeQuality/ViewModel/MoviesViewModel.swift"
+                  timestampString = "538064630.118558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.String in CodeQuality.MoviesViewModel.titleForItmesAtIndexPath(indexPath: Foundation.IndexPath) -&gt; Swift.String"
+                  moduleName = "CodeQuality"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghousebashashaik/Desktop/My%20iOS%20Projects/Ghouse%20GitHub/CodeQuality/CodeQuality/ViewModel/MoviesViewModel.swift"
+                  timestampString = "538064630.12107"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
