@@ -25,7 +25,6 @@ class MoviesViewModel: NSObject {
     
     func titleForItmesAtIndexPath(indexPath: IndexPath) -> String {
         let oneMoviewList = movies?[indexPath.row]
-        
         return oneMoviewList?.value(forKeyPath: "im:name.label") as? String ?? ""
     }
 }

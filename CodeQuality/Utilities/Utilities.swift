@@ -6,7 +6,7 @@
 //  Copyright © 2018 Ghouse Basha Shaik. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Utilities {
     //Function Validating any string value
@@ -53,6 +53,30 @@ class Utilities {
             return true
         }else{
             return false
+        }
+    }
+    
+    class func showAlert(withTitle: String?,okTitle: String?, cancelTitle: String?, message: String,isCancel:Bool, okHandler:((UIAlertAction) -> Void)?)  -> UIAlertController  {
+        let alertController = UIAlertController(title: withTitle, message: message, preferredStyle: .alert)
+        let OKAction = UIAlertAction(title: okTitle, style: .default) { (action) in
+            okHandler!(action)
+        }
+        if isCancel {
+            let cancelAction = UIAlertAction(title: cancelTitle, style: .cancel) { (action) in
+                return
+            }
+            alertController.addAction(cancelAction)
+        }
+        alertController.addAction(OKAction)
+        return alertController
+    }
+    
+    class func showAlertOnlyOk(withTitle: String?, okTitle: String?, message: String, inViewController: UIViewController) {
+        let alertController = UIAlertController(title: withTitle, message: message, preferredStyle: .alert)
+        let oKAction = UIAlertAction(title: okTitle, style: .default)
+        alertController.addAction(oKAction)
+        DispatchQueue.main.async {
+            inViewController.present(alertController, animated: true, completion: nil)
         }
     }
 }

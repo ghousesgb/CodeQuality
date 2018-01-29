@@ -20,13 +20,19 @@
 		64060FB820088CA40079610D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64060FB720088CA40079610D /* Utilities.swift */; };
 		64060FBC200893BF0079610D /* UtilitiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64060FBB200893BF0079610D /* UtilitiesTest.swift */; };
 		64060FBE2008C3120079610D /* UtilitiesNimbleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64060FBD2008C3120079610D /* UtilitiesNimbleTest.swift */; };
-		64060FBF2008C73F0079610D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64060FC02008C73F0079610D /* Nimble.framework */; };
 		64060FC12008C7420079610D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64060FC22008C7420079610D /* Quick.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		64281EA2201F074A00C54E6C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64281EA1201F074A00C54E6C /* Student.swift */; };
+		64281EA4201F07D500C54E6C /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64281EA3201F07D500C54E6C /* StudentViewController.swift */; };
+		64281EA7201F0ADF00C54E6C /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64281EA6201F0ADF00C54E6C /* StudentTableViewCell.swift */; };
+		64281EA9201F16B900C54E6C /* StudentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64281EA8201F16B900C54E6C /* StudentViewModel.swift */; };
 		644DB45D201237BA006EF9EB /* MoviesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DB45C201237BA006EF9EB /* MoviesTest.swift */; };
+		648F01E2201F2AE0006D159B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F01E3201F2AE0006D159B /* Nimble.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		648F01E4201F2B5A006D159B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F01E5201F2B5A006D159B /* Nimble.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		648F01E6201F2B5E006D159B /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F01E7201F2B5E006D159B /* Quick.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		64F5BFDC201229B500E5B1F1 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5BFDB201229B500E5B1F1 /* MoviesViewModel.swift */; };
 		64F5BFE2201233F200E5B1F1 /* MoviesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5BFE1201233A500E5B1F1 /* MoviesClient.swift */; };
-		80F351697EFA336167322E07 /* Pods_CodeQualityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357CF7E104A2F920F909A861 /* Pods_CodeQualityTests.framework */; };
-		8E7C297F4D90C156A3D01F95 /* Pods_CodeQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6634C0873522E34DE6C74FB3 /* Pods_CodeQuality.framework */; };
+		80F351697EFA336167322E07 /* Pods_CodeQualityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357CF7E104A2F920F909A861 /* Pods_CodeQualityTests.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8E7C297F4D90C156A3D01F95 /* Pods_CodeQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6634C0873522E34DE6C74FB3 /* Pods_CodeQuality.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +79,14 @@
 		64060FBD2008C3120079610D /* UtilitiesNimbleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesNimbleTest.swift; sourceTree = "<group>"; };
 		64060FC02008C73F0079610D /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64060FC22008C7420079610D /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64281EA1201F074A00C54E6C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		64281EA3201F07D500C54E6C /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		64281EA6201F0ADF00C54E6C /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		64281EA8201F16B900C54E6C /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
 		644DB45C201237BA006EF9EB /* MoviesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTest.swift; sourceTree = "<group>"; };
+		648F01E3201F2AE0006D159B /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		648F01E5201F2B5A006D159B /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		648F01E7201F2B5E006D159B /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F5BFDB201229B500E5B1F1 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		64F5BFE1201233A500E5B1F1 /* MoviesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesClient.swift; sourceTree = "<group>"; };
 		6634C0873522E34DE6C74FB3 /* Pods_CodeQuality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeQuality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648F01E6201F2B5E006D159B /* Quick.framework in Frameworks */,
+				648F01E4201F2B5A006D159B /* Nimble.framework in Frameworks */,
 				8E7C297F4D90C156A3D01F95 /* Pods_CodeQuality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,8 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648F01E2201F2AE0006D159B /* Nimble.framework in Frameworks */,
 				64060FC12008C7420079610D /* Quick.framework in Frameworks */,
-				64060FBF2008C73F0079610D /* Nimble.framework in Frameworks */,
 				80F351697EFA336167322E07 /* Pods_CodeQualityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +126,9 @@
 		46D7D1C18C7EB798A06C52A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				648F01E7201F2B5E006D159B /* Quick.framework */,
+				648F01E5201F2B5A006D159B /* Nimble.framework */,
+				648F01E3201F2AE0006D159B /* Nimble.framework */,
 				64060FC22008C7420079610D /* Quick.framework */,
 				64060FC02008C73F0079610D /* Nimble.framework */,
 				6634C0873522E34DE6C74FB3 /* Pods_CodeQuality.framework */,
@@ -155,10 +173,11 @@
 		64060F842008820A0079610D /* CodeQuality */ = {
 			isa = PBXGroup;
 			children = (
-				64060F852008820A0079610D /* AppDelegate.swift */,
-				64060F872008820A0079610D /* ViewController.swift */,
+				64281E9F201F06FE00C54E6C /* AppDelegate */,
+				64281E9E201F06E600C54E6C /* ViewController */,
 				64F5BFDF201232F900E5B1F1 /* ViewModel */,
-				64F5BFE0201233A500E5B1F1 /* MoviesClient */,
+				64281EA0201F073100C54E6C /* Model */,
+				64F5BFE0201233A500E5B1F1 /* Helper */,
 				64060FB620088CA40079610D /* Utilities */,
 				64060F892008820A0079610D /* Main.storyboard */,
 				64060F8C2008820A0079610D /* Assets.xcassets */,
@@ -200,20 +219,55 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		64281E9E201F06E600C54E6C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64060F872008820A0079610D /* ViewController.swift */,
+				64281EA3201F07D500C54E6C /* StudentViewController.swift */,
+				64281EA5201F0ACA00C54E6C /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		64281E9F201F06FE00C54E6C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				64060F852008820A0079610D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		64281EA0201F073100C54E6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64281EA1201F074A00C54E6C /* Student.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64281EA5201F0ACA00C54E6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64281EA6201F0ADF00C54E6C /* StudentTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		64F5BFDF201232F900E5B1F1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				64F5BFDB201229B500E5B1F1 /* MoviesViewModel.swift */,
+				64281EA8201F16B900C54E6C /* StudentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		64F5BFE0201233A500E5B1F1 /* MoviesClient */ = {
+		64F5BFE0201233A500E5B1F1 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
 				64F5BFE1201233A500E5B1F1 /* MoviesClient.swift */,
 			);
-			path = MoviesClient;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,7 +408,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		224705221285A0948A801471 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -367,10 +421,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeQuality/Pods-CodeQuality-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		414565904E27824A36EC9F94 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -440,7 +493,7 @@
 		};
 		D0B0B298D4341E53B637D33D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -448,10 +501,9 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeQuality/Pods-CodeQuality-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -462,9 +514,13 @@
 			files = (
 				640435CA200DE40300E64D38 /* WebServiceManager.swift in Sources */,
 				64060F882008820A0079610D /* ViewController.swift in Sources */,
+				64281EA9201F16B900C54E6C /* StudentViewModel.swift in Sources */,
 				64060FB820088CA40079610D /* Utilities.swift in Sources */,
 				64060F862008820A0079610D /* AppDelegate.swift in Sources */,
+				64281EA4201F07D500C54E6C /* StudentViewController.swift in Sources */,
+				64281EA7201F0ADF00C54E6C /* StudentTableViewCell.swift in Sources */,
 				64F5BFDC201229B500E5B1F1 /* MoviesViewModel.swift in Sources */,
+				64281EA2201F074A00C54E6C /* Student.swift in Sources */,
 				64F5BFE2201233F200E5B1F1 /* MoviesClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
