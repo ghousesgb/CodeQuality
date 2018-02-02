@@ -13,18 +13,32 @@ import UIKit
     func area() -> Float {
         return width * height
     }
-    mutating func scaleBoth(by: Float) { //Mutating should be used as the member are been modified
+    mutating func scaleBoth(by: Float) { //Mutating should be used as thes "struct" member are been modified
+        width *= by
+        height *= by
+    }
+}
+class ClassRectangle {
+    var width : Float = 0.0
+    var height : Float = 0.0
+    func area() -> Float {
+        return width * height
+    }
+    func scaleBoth(by: Float) { // Here Mutating not required reference nature of class
         width *= by
         height *= by
     }
 }*/
+
 class ViewController: UIViewController {
     @IBOutlet var moviesViewModel : MoviesViewModel?
     @IBOutlet weak var moviesTableView: UITableView!
+    var apiStatus = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        moviesViewModel?.fetchMovies {
+        moviesViewModel?.fetchMovies {[unowned self] in
+            self.apiStatus =  true
             DispatchQueue.main.async {[unowned self] in
                 self.moviesTableView.reloadData()
             }

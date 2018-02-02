@@ -12,9 +12,9 @@ target 'CodeQuality' do
     use_frameworks!
 
     # Pods for KYGInsurance
-    available_pods
 
     target 'CodeQualityTests' do
     	 inherit! :search_paths
+          available_pods
     end
 end

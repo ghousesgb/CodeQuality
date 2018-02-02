@@ -31,17 +31,25 @@ class StudentViewController: UIViewController {
         }
         if !Utilities.validate(text: name, maxLength: 20) {
             Utilities.showAlertOnlyOk(withTitle: "Problem", okTitle: "Ok", message: "Invalid name provided", inViewController: self)
+            return
         }
         if !Utilities.validate(text: address, maxLength: 40) {
             Utilities.showAlertOnlyOk(withTitle: "Problem", okTitle: "Ok", message: "Invalid address provided", inViewController: self)
+            return
         }
         studentViewModel.addStudentRecordWith(name: name, address: address)
+        clearTextFields()
+    }
+    
+    func clearTextFields() {
+        nameTextField.text     = ""
+        addressTextField.text  = ""
     }
 }
 
 extension StudentViewController : UITableViewDataSource {
     func setupTableView() {
-            self.studentTableView.tableFooterView = UIView()
+        self.studentTableView.tableFooterView = UIView()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,7 +57,7 @@ extension StudentViewController : UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell : StudentTableViewCell = tableView.dequeueReusableCell(withIdentifier: String(describing:StudentTableViewCell.self), for: indexPath) as! StudentTableViewCell
+        let cell : StudentTableViewCell = tableView.dequeueReusableCell(withIdentifier: "studentCell", for: indexPath) as! StudentTableViewCell
         cell.studentObj = studentViewModel.studentCellForRowAt(indexPath: indexPath) as Student
         return cell
     }

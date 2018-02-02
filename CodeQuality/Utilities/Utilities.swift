@@ -15,7 +15,7 @@ class Utilities {
             return false
         }
         if let maxLength = maxLength, maxLength != 0 {
-            if maxLength > text.count {
+            if text.count > maxLength {
                 return false
             }
         }

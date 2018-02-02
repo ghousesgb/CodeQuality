@@ -29,4 +29,6 @@ class StudentViewModel {
     func studentCellForRowAt(indexPath: IndexPath) -> Student {
         return arrayOfStudent[indexPath.row]
     }
+    
+    
 }

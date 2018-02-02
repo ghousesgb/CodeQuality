@@ -17,10 +17,10 @@ class UtilitiesTest: XCTestCase {
         XCTAssertEqual(Utilities.validate(text: "", maxLength: 0), false)
     }
     func test_validateText_isNotValid_lengthIssue() {
-        XCTAssertEqual(Utilities.validate(text: "vsoft", maxLength: 10), false)
+        XCTAssertEqual(Utilities.validate(text: "vsoftsdfsdf", maxLength: 10), false)
     }
     func test_validateText_isValid() {
-        XCTAssertEqual(Utilities.validate(text: "vsoftteam", maxLength: 8), false)
+        XCTAssertEqual(Utilities.validate(text: "vsoftte", maxLength: 8), true)
     }
     
     // Unit Case for validating ZIPCODE/PHONE OR ONLY NUMBERS
@@ -29,7 +29,7 @@ class UtilitiesTest: XCTestCase {
         XCTAssertEqual(Utilities.validateNumber(number: "11", maxLength: 8), false)
     }
     func test_validatePhone_isNotValid_onlyNumbersAllowed() {
-        XCTAssertEqual(Utilities.validateNumber(number: "11333333432423423", maxLength: 8), true)
+        XCTAssertEqual(Utilities.validateNumber(number: "11333333432423423", maxLength: 8), false)
     }
     func test_validateZipCode_isValid() {
         XCTAssertEqual(Utilities.validateNumber(number: "560016", maxLength: 6), true)
